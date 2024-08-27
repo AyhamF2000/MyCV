@@ -1,0 +1,72 @@
+
+.loginView{
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+  gap: 10px;       
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 6.3%;
+  
+  
+  
+}
+.loginView form input {
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: #262626;
+  padding: 15px;
+  margin: 10px 0;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.SubmitView{
+  padding: 14px 60px;
+  font-size: 18px;
+  margin-top: 20px;
+  border-radius: 5px;
+
+  background: #ff004f;
+}
+
+
+
+
+
+
+
+.messages{
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+  gap: 10px;       
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 8%;
+  
+  
+}
+/* Apply basic styling to the table */
+div table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Style the header row */
+div th {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Style the data rows */
+div td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+/* Add some hover effect to the rows */
+div tr:hover {
+  background-color: #f5f5f5a8;
+}
+

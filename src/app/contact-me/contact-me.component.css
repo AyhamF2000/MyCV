@@ -1,0 +1,160 @@
+/* .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+.contact-left{
+    flex-basis: 35%;
+}
+.sub-title{
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+
+}
+.contact-right{
+    flex-basis: 60%;
+}
+
+.contact-left p{
+    margin-top: 30px;
+}
+.contact-left p i{
+    color: #ff004f;
+    margin-right: 15px;
+    font-size: 25px;
+
+}
+
+.social-icons{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-icons a:hover{
+    color: #ff004f;
+    transform: translateY(-5px);       
+}
+.btn.btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    background: #ff004f;
+    color: #FFFFFF;
+    
+}
+.contact-right form{
+    width: 500;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 10px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+}
+form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    
+}
+.loginButton{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.loginButton button{
+    width: 20%;
+    padding: 14px 60px;
+    font-size: 14px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #ff004f;
+    color: #ffffff;
+} */
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column; /* Align children vertically */
+    align-items: center; /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
+    height: 100vh; /* Optional: adjust depending on how you want to use the space */
+    text-align: center; /* Center the text within the children */
+    flex-basis: 100%; /* Take full width since it's the only active section */
+}
+
+.sub-title {
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.contact-left p {
+    margin-top: 30px;
+}
+
+.contact-left p i {
+    color: #ff004f;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.social-icons {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social-icons a:hover {
+    color: #ff004f;
+    transform: translateY(-5px);
+}
+
+.btn.btn2 {
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: #ff004f;
+    color: #FFFFFF;
+    text-decoration: none; /* Ensures no underline */
+    display: block; /* Ensures it behaves as a block for better spacing */
+    width: auto; /* Adjust width as needed */
+    text-align: center; /* Center text inside the button */
+}
+
+/* Commented sections should not have styles if they are not used */

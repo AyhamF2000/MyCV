@@ -1,0 +1,43 @@
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="/assets/me.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p [innerHTML]="aboutMe"></p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links" [class.active-link]="activeTab === 'skills'" (click)="opentab('skills')">Skills</p>
+                    <p class="tab-links" [class.active-link]="activeTab === 'experience'" (click)="opentab('experience')">Experience</p>
+                    <p class="tab-links" [class.active-link]="activeTab === 'education'" (click)="opentab('education')">Education</p>
+                  </div>
+
+                <div class="tab-contents" [class.active-tab]="activeTabInfo ==='skills'" id="skills">
+                    <ul *ngFor="let skill of skills">
+                        <li><span>{{skill.title}}</span><br>{{skill.description}}</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" [class.active-tab]="activeTabInfo ==='experience'" id="experience">
+                    <ul *ngFor="let experience of experiences">
+                        <li><span>{{experience.title}}</span><br>{{experience.description}}</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" [class.active-tab]="activeTabInfo ==='education'" id="education">
+                    <ul *ngFor="let education of educations">
+                        <li><span>{{education.title}}</span><br>{{education.description}}</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+
+
+

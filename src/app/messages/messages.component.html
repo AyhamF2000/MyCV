@@ -1,0 +1,31 @@
+<div class="loginView" #loginSection>
+    <form> 
+         <input type="email" name="Email" placeholder="Your Email" id="login_email" required>
+         <input type="password" name="Password" placeholder="Your Password" id="login_password" required>
+    </form>
+    <input type="submit" value="Log in" class="SubmitView" (click)="showMessages()">
+</div>
+
+<div class="messages" #messagesSection>
+    <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Mail</th>
+            <th>Message</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Add rows and data dynamically here -->
+          <tr>
+            <td>smeh</td>
+            <td>smaeh.com</td>
+            <td>Hello, how are you?</td>
+          </tr>
+          
+          <!-- Add more rows as needed -->
+        </tbody>
+      </table>
+
+
+</div>
